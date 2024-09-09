@@ -44,6 +44,14 @@
 | Status          | ${\color{red}Fail}$
 |                 |
 | **ID**          | **6**
+| Title           | Проверка фильтра "Filter by category"
+| Precondition    | Открыта главная страница - https://makarovartem.github.io/frontend-avito-tech-test-assignment/
+| Steps           | 1. Нажать на выпадающий список под фильтром "Filter by category"
+|                 | 2. Выбрать любую категорию, например, "mmorpg"
+| Expected result | Показываются игры только выбранной пользователем категории
+| Status          | ${\color{red}Fail}$
+|                 |
+| **ID**          | **7**
 | Title           | Проверка фильтра "Sort By" 
 | Precondition    | Открыта главная страница - https://makarovartem.github.io/frontend-avito-tech-test-assignment/
 | Steps           | 1. Нажать на выпадающий список под фильтром "Sort by"
@@ -51,7 +59,7 @@
 | Expected result | Карточки игр отсортировались в соответствии с выбранным параметром
 | Status          | ${\color{green}Passed}$
 |                 |
-| **ID**          | **7**
+| **ID**          | **8**
 | Title           | Проверка сохранения сортировки карточек игр
 | Precondition    | Открыта главная страница - https://makarovartem.github.io/frontend-avito-tech-test-assignment/
 |                 | Выбран любой способ сортировки "Sort by", например, "Popularity"
@@ -61,7 +69,7 @@
 | Expected result | Пользователь попадает на предыдущую страницу, карточки товаров также рассортированы по раннее выбраному параметру
 | Status          | ${\color{green}Passed}$
 |                 |
-| **ID**          | **8**
+| **ID**          | **9**
 | Title           | Проверка смены категории на "not chosen"
 | Precondition    | Открыта главная страница - https://makarovartem.github.io/frontend-avito-tech-test-assignment/
 | Steps           | 1. Нажать на любой выпадающий список фильтра, например, "Filter by category"
@@ -71,7 +79,7 @@
 | Expected result | Примененный ранее фильтр отменился, карточки товаров отображаются без привязки к категории
 | Status          | ${\color{red}Fail}$
 |                 |
-| **ID**          | **9**
+| **ID**          | **10**
 | Title           | Проверка работы трех фильтров одновременно
 | Precondition    | Открыта главная страница - https://makarovartem.github.io/frontend-avito-tech-test-assignment/
 | Steps           | 1. Нажать на выпадающий список фильтра "Filter by platform"
@@ -83,7 +91,7 @@
 | Expected result | Все выбранные фильтры применились, на странице отображаются карточки соответствующие всем трем фильтрам одновременно
 | Status          | ${\color{green}Passed}$
 |                 |
-| **ID**          | **10**
+| **ID**          | **11**
 | Title           | Проверка смены категорий
 | Precondition    | Открыта главная страница - https://makarovartem.github.io/frontend-avito-tech-test-assignment/
 | Steps           | 1. Нажать на любой выпадающий список фильтра, например, "Filter by category"
@@ -93,7 +101,7 @@
 | Expected result | Список игр обновился в соответствии с новой выбранной категорией
 | Status          | ${\color{green}Passed}$
 |                 |
-| **ID**          | **11**
+| **ID**          | **12**
 | Title           | Выбор категории при помощи клавиатуры
 | Precondition    | Открыта главная страница - https://makarovartem.github.io/frontend-avito-tech-test-assignment/
 | Steps           | 1. Нажать на выпадающий список под любым фильтром, например, "Filter by category"
@@ -102,7 +110,7 @@
 | Expected result | Выбранный фильтр успешно применился
 | Status          | ${\color{green}Passed}$
 |                 |
-| **ID**          | **12**
+| **ID**          | **13**
 | Title           | Сохранение фильтров после перехода в карточку товара
 | Precondition    | Открыта главная страница - https://makarovartem.github.io/frontend-avito-tech-test-assignment/
 | Steps           | 1. Нажать на выпадающий список под "Filter by category"
@@ -110,12 +118,12 @@
 |                 | 3. Перейти в любую карточку игры
 |                 | 4. Проскроллить вниз
 |                 | 5. Нажать на кнопку "Back to main"
-| Expected result | Выбранный раннее фильтр отображается, игры остались отсортированы по этой категории
+| Expected result | Выбранный раннее фильтр отображается в поле выбора
 | Status          | ${\color{red}Fail}$
 |                 |
 |                 |
 |                 |
-| **ID**          | **13**
+| **ID**          | **14**
 | Title           | Выделение цветом кнопки "Back to main" при наведении курсора
 | Precondition    | Открыта главная страница - https://makarovartem.github.io/frontend-avito-tech-test-assignment/
 | Steps           | 1. Открыть любую карточку игры
@@ -125,7 +133,7 @@
 | Expected result | Кнопка подсвечивается при наведении курсора
 | Status          | ${\color{green}Passed}$
 |                 |
-| **ID**          | **14**
+| **ID**          | **15**
 | Title           | Возвращение на главную страницу из карточки товара с помощью кнопки "Back to main"
 | Precondition    | Открыта главная, первая страница - https://makarovartem.github.io/frontend-avito-tech-test-assignment/
 | Steps           | 1. Открыть любую карточку игры с первой страницы
@@ -134,7 +142,7 @@
 | Expected result | Пользователь вернулся на первую страницу, кнопка работает
 | Status          | ${\color{green}Passed}$
 |                 |
-| **ID**          | **15**
+| **ID**          | **16**
 | Title           | Возвращение на конкретную страницу из карточки товара с помощью кнопки "Back to main"
 | Precondition    | Открыта любая страница сайта, например, 4 - https://makarovartem.github.io/frontend-avito-tech-test-assignment/
 | Steps           | 1. Перейти в любую карточку игры на выбранной странице (кроме первой страницы)
@@ -143,7 +151,7 @@
 | Expected result | Открывается страница, с которой была открыта карточка игры
 | Status          | ${\color{red}Fail}$
 |                 |
-| **ID**          | **16**
+| **ID**          | **17**
 | Title           | Открытие главной страницы в новой вкладке с помощью кнопки "Back to main"
 | Precondition    | Открыта главная страница - https://makarovartem.github.io/frontend-avito-tech-test-assignment/
 | Steps           | 1. Нажать на любую карточку игры
@@ -152,7 +160,7 @@
 | Expected result | В новой вкладке браузера открылась главная страница сайта
 | Status          | ${\color{red}Fail}$
 |                 |
-| **ID**          | **17**
+| **ID**          | **18**
 | Title           | Открытие главной страницы в новой вкладке по контекстному меню кнопки "Back to main"
 | Precondition    | Открыта любая карточка игры, например, - https://makarovartem.github.io/frontend-avito-tech-test-assignment/game/540
 | Steps           | 1. Проскроллить вниз
@@ -163,7 +171,7 @@
 | Expected result | В новой вкладке браузера открылась главная страница сайта
 | Status          | ${\color{red}Fail}$
 |                 |
-| **ID**          | **18**
+| **ID**          | **19**
 | Title           | Проверка кликабельности всей кнопки, не только текста "Back to main"
 | Precondition    | Открыта любая карточка игры, например, - https://makarovartem.github.io/frontend-avito-tech-test-assignment/game/540
 | Steps           | 1. Проскроллить вниз
@@ -174,7 +182,7 @@
 |                 |
 |                 |
 |                 |
-| **ID**          | **19**
+| **ID**          | **20**
 | Title           | Выбранная страница выделяется в списке номеров страниц 
 | Precondition    | Открыта главная страница - https://makarovartem.github.io/frontend-avito-tech-test-assignment/
 | Steps           | 1. Убедиться, что в списке номеров страниц выделена первая страница
@@ -182,7 +190,7 @@
 | Expected result | Пользователь попадает на страницу, выбранная страница выделена в списке номеров страниц
 | Status          | ${\color{green}Passed}$
 |                 |
-| **ID**          | **20**
+| **ID**          | **21**
 | Title           | Переход на предыдущую страницу 
 | Precondition    | Открыта главная страница - https://makarovartem.github.io/frontend-avito-tech-test-assignment/
 | Steps           | 1. Перейти на любую страницу кроме первой, например, четвертую
@@ -190,7 +198,7 @@
 | Expected result | Открылась предыдущая страница
 | Status          | ${\color{green}Passed}$
 |                 |
-| **ID**          | **21**
+| **ID**          | **22**
 | Title           | Переход на следующую страницу
 | Precondition    | Открыта главная страница - https://makarovartem.github.io/frontend-avito-tech-test-assignment/
 | Steps           | 1. Перейти на любую страницу кроме последней, например, вторую
@@ -198,21 +206,21 @@
 | Expected result | Открылась следующая страница
 | Status          | ${\color{green}Passed}$
 |                 |
-| **ID**          | **22**
+| **ID**          | **23**
 | Title           | Отсутствии возможности перехода на предыдущую страницу с первой
 | Precondition    | Открыта первая страница сайта - https://makarovartem.github.io/frontend-avito-tech-test-assignment/
 | Steps           | 1. Навести курсор на стрелочку назад в списке номеров страниц ("Previous page")
 | Expected result | Кнопка не кликабельна, отображается заглушка 
 | Status          | ${\color{green}Passed}$
 |                 |
-| **ID**          | **23**
+| **ID**          | **24**
 | Title           | Отсутствии возможности перехода на следующую страницу с последней
 | Precondition    | Открыта последняя страница сайта - https://makarovartem.github.io/frontend-avito-tech-test-assignment/
 | Steps           | 1. Навести курсор на стрелочку вперед в списке номеров страниц ("Next page")
 | Expected result | Кнопка не кликабельна, отображается заглушка
 | Status          | ${\color{green}Passed}$
 |                 |
-| **ID**          | **24**
+| **ID**          | **25**
 | Title           | Проверка смены количества отображения карточек на странице
 | Precondition    | Открыта главная страница - https://makarovartem.github.io/frontend-avito-tech-test-assignment/
 | Steps           | 1. Найти возле списка страниц окошко для смены количества карточек на странице
@@ -221,7 +229,7 @@
 | Expected result | Количество отображения капточек игр на странице изменилось в соответствии с новым выбранным лимитом
 | Status          | ${\color{green}Passed}$
 |                 |
-| **ID**          | **25**
+| **ID**          | **26**
 | Title           | Проверка смены отображения количества карточек на странице с помощью ввода
 | Precondition    | Открыта главная страница - https://makarovartem.github.io/frontend-avito-tech-test-assignment/
 | Steps           | 1. Найти возле списка страниц окошко для смены количества карточек на странице
@@ -231,7 +239,7 @@
 | Expected result | Количество карточек игр на странице изменилось в соответствии с новым выбранным лимитом
 | Status          | ${\color{green}Passed}$
 |                 |
-| **ID**          | **25**
+| **ID**          | **27**
 | Title           | Проверка смены количества отображения карточек с помощью ввода нестандартного значения в диапазоне возможных
 | Precondition    | Открыта главная страница - https://makarovartem.github.io/frontend-avito-tech-test-assignment/
 | Steps           | 1. Найти возле списка страниц окошко для смены количества карточек на странице
@@ -241,7 +249,7 @@
 | Expected result | Количество карточек игр на странице не изменилось, пользователь видит заглушку 
 | Status          | ${\color{green}Passed}$
 |                 |
-| **ID**          | **26**
+| **ID**          | **28**
 | Title           | Проверка отображения карточек на странице при выборе максимально возможного лимита
 | Precondition    | Открыта главная страница - https://makarovartem.github.io/frontend-avito-tech-test-assignment/
 | Steps           | 1. Найти возле списка страниц окошко для смены количества карточек на странице
@@ -250,7 +258,7 @@
 | Expected result | Количество карточек игр на странице изменилось в соответствии с новым выбранным лимитом
 | Status          | ${\color{green}Passed}$
 |                 |
-| **ID**          | **27**
+| **ID**          | **29**
 | Title           | Проверка смены количества отображения карточек при вводе значения за максимальной границей диапазона
 | Precondition    | Открыта главная страница - https://makarovartem.github.io/frontend-avito-tech-test-assignment/
 | Steps           | 1. Найти возле списка страниц окошко для смены количества карточек на странице
@@ -260,7 +268,7 @@
 | Expected result | Количество карточек игр на странице не изменилось, пользователь видит заглушку 
 | Status          | ${\color{green}Passed}$
 |                 |
-| **ID**          | **28**
+| **ID**          | **30**
 | Title           | Проверка смены количества отображения карточек при вводе значения за минимальной границей диапазона
 | Precondition    | Открыта главная страница - https://makarovartem.github.io/frontend-avito-tech-test-assignment/
 | Steps           | 1. Найти возле списка страниц окошко для смены количества карточек на странице
@@ -270,7 +278,7 @@
 | Expected result | Количество карточек игр на странице не изменилось, пользователь видит заглушку 
 | Status          | ${\color{green}Passed}$
 |                 |
-| **ID**          | **29**
+| **ID**          | **31**
 | Title           | Изменение количества страниц после смены лимита карточек на странице
 | Precondition    | Открыта главная страница - https://makarovartem.github.io/frontend-avito-tech-test-assignment/
 | Steps           | 1. Найти возле списка страниц окошко для смены количества карточек на странице
@@ -279,7 +287,7 @@
 | Expected result | Количество страниц изменилось
 | Status          | ${\color{green}Passed}$
 |                 |
-| **ID**          | **30**
+| **ID**          | **32**
 | Title           | Открытие страницы в новой вкладке 
 | Precondition    | Открыта главная страница - https://makarovartem.github.io/frontend-avito-tech-test-assignment/
 | Steps           | 1. Навести курсор на любую страницу, кроме текущей 
