@@ -44,7 +44,7 @@
 | Status          | ${\color{red}Fail}$
 |                 |
 | **ID**          | **6**
-| Title           | Проверка фильтра "Filter by category"
+| Title           | Сортировка игр по выбранной категории с помощью фильтра "Filter by category"
 | Precondition    | Открыта главная страница - https://makarovartem.github.io/frontend-avito-tech-test-assignment/
 | Steps           | 1. Нажать на выпадающий список под фильтром "Filter by category"
 |                 | 2. Выбрать любую категорию, например, "mmorpg"
@@ -52,7 +52,7 @@
 | Status          | ${\color{red}Fail}$
 |                 |
 | **ID**          | **7**
-| Title           | Проверка фильтра "Sort By" 
+| Title           | Сортировка игр по заданному параметру с помощью фильтра "Sort By" 
 | Precondition    | Открыта главная страница - https://makarovartem.github.io/frontend-avito-tech-test-assignment/
 | Steps           | 1. Нажать на выпадающий список под фильтром "Sort by"
 |                 | 2. Выбрать любой способ сортировки, например, "Alphabetical"
