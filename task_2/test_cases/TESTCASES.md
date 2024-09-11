@@ -294,8 +294,22 @@
 |                 | 2. С помощью колесика мыши/ЛКМ + Ctrl/ПКМ и контекстного меню открыть выбранную страницу в новой вкладке
 | Expected result | Выбранная страница открылась в новой вкладке
 | Status          | ${\color{red}Fail}$
-
-
+|                 |
+| **ID**          | **33**
+| Title           | Перелистывание на следующие 5 страниц с помощью кнопки "Next 5 pages" в блоке пагинации 
+| Precondition    | Открыта главная страница - https://makarovartem.github.io/frontend-avito-tech-test-assignment/
+| Steps           | 1. Открыть любую страницу из блока пагинации, например, 7
+|                 | 2. Нажать на три точки "Next 5 pages"
+| Expected result | В блоке пагинации пользователь видит следующие 5 страниц
+| Status          | ${\color{green}Passed}$
+|                 |
+| **ID**          | **33**
+| Title           | Перелистывание на предыдущие 5 страниц с помощью кнопки "Previous 5 pages" в блоке пагинации 
+| Precondition    | Открыта главная страница - https://makarovartem.github.io/frontend-avito-tech-test-assignment/
+| Steps           | 1. Открыть любую страницу из блока пагинации, например, 23
+|                 | 2. Нажать на три точки "Previous 5 pages"
+| Expected result | В блоке пагинации пользователь видит предыдущие 5 страниц
+| Status          | ${\color{green}Passed}$
 
 
 
