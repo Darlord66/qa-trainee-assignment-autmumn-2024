@@ -303,7 +303,7 @@
 | Expected result | В блоке пагинации пользователь видит следующие 5 страниц
 | Status          | ${\color{green}Passed}$
 |                 |
-| **ID**          | **33**
+| **ID**          | **34**
 | Title           | Перелистывание на предыдущие 5 страниц с помощью кнопки "Previous 5 pages" в блоке пагинации 
 | Precondition    | Открыта главная страница - https://makarovartem.github.io/frontend-avito-tech-test-assignment/
 | Steps           | 1. Открыть любую страницу из блока пагинации, например, 23
