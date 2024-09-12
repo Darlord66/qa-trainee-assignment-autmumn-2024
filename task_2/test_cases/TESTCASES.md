@@ -310,7 +310,17 @@
 |                 | 2. Нажать на три точки "Previous 5 pages"
 | Expected result | В блоке пагинации пользователь видит предыдущие 5 страниц
 | Status          | ${\color{green}Passed}$
-
+|                 |
+| **ID**          | **35**
+| Title           | Переход на главную при помощи кнопки "Back to main" cо страницы с ошибкой
+| Precondition    | Открыта главная страница - https://makarovartem.github.io/frontend-avito-tech-test-assignment/
+| Steps           | 1. Нажать на любой выпадающий список фильтра, например, "Filter by category"
+|                 | 2. Выбрать любую категорию, например, "sports"
+|                 | 3. Дождаться загрузки страницы
+|                 | 4. Сменить предыдущий выбранный параметр на "not chosen"
+|                 | 5. Появляется страница с ошибкой и кнопкой "Back to main" - нажать кнопку"
+| Expected result | При попаднии на страницу с ошибкой кнопка "Back to main" возвращает пользователя на главную страницу
+| Status          | ${\color{red}Fail}$
 
 
 
